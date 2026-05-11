@@ -13,7 +13,7 @@ class Silverquill():
 
     def generate(self):
        #Generate 8 random, unique, common cards
-        for common_card in range(8):
+        for common_card in range(7):
             random.shuffle(self.common)
             self.card_list.append(self.common.pop())
        #Generate 3 random, unique, uncommon cards
